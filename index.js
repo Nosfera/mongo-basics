@@ -26,6 +26,8 @@ var dataSchema = new mongoose.Schema({
 	data1: String,
 	data2: String
 });
+
+// postData is the collection created on /mylist DB
 var postData = mongoose.model("postData", dataSchema);
 
 // APP
